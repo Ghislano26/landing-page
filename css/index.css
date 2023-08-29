@@ -227,6 +227,9 @@ input[type = "text"]{
     font-family: var(--titleHeadFont);
     font-size: 2rem;
 }
+.features__main__top a{
+    font-family: var(--titleHeadFont);
+}
 .features__main__top__link{
     width: 20rem;
     display: flex;
@@ -256,3 +259,54 @@ input[type = "text"]{
 /* Fin du traitement de la section features */
 
 /* Traitement de la scetion latest */
+.latest{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    background: var(--primarySectionColor);
+}
+.latest__main{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.latest__main__top{
+    width: 88vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;   
+}
+.latest__main__top a{
+    font-family: var(--titleHeadFont);  
+}
+.latest__main__top h1{
+    font-family: var(--titleHeadFont);
+    font-size: 2rem;
+}
+.latest__main__top__link{
+    width: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.latest__main__top__link a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: blue;
+}
+.latest__main__bottom{
+    width: 88vw;
+    display: flex;
+    justify-content: space-around;
+}
+.latest__main__bottom img{
+    cursor: pointer;
+    transition: 0.25s ease-out;
+}
+.latest__main__bottom img:hover{
+    transform: scale(1.1);
+}
