@@ -424,3 +424,47 @@ input[type = "text"]{
     transform: scale(1.1);
 }
 /* Fin du traitement de la section solution */
+/* Traitement de la section history */
+.history{
+    width: 100vw;
+    height: 80vh;
+    background: var(--primarySectionColor);
+}
+.history__main{
+    display: flex;
+    width: 100vw;
+    height: 40vw;
+    justify-content: space-around;
+    align-items: center;
+}
+.history__main__img{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.history__main__text{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+.history__main__text__left h3{
+    font-size: 1.5rem;
+    font-family: var(--titleHeadFont);
+}
+.history__main__text__left p{
+    font-size: 1.6rem;
+    font-family: var(--titleHeadFont);
+}
+.history__main__text__left span{
+    font-size: 1.2rem;
+    color: blue;
+}
+.history__main__text__right img{
+    cursor: pointer;
+    transition: 0.25s ease-out;
+}
+.history__main__text__right img:hover{
+    transform: scale(1.1);
+}
+/* Fin du traitement de la section history */
