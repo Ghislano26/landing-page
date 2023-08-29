@@ -310,3 +310,55 @@ input[type = "text"]{
 .latest__main__bottom img:hover{
     transform: scale(1.1);
 }
+
+/* Fin du traitement de la section latest */
+/* Traitement de la section services */
+.services{
+    width: 100vw;
+    height: 60vh;
+    background: var(--BodyColor);
+}
+.services__title{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-family: var(--titleHeadFont);
+}
+.services__img{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.3rem;
+    font-family: var(--titleHeadFont);
+    cursor: pointer;
+    transition: 0.25s ease-out;
+}
+.services__img img:hover{
+    transform: scale(1.2);
+}
+.services__btn{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services__btn button{
+    border: none;
+    border-radius: var(--raduisButton);
+    color: var(--BodyColor);
+    background-color: var(--buttonColor);
+    cursor: pointer;
+    padding: 1rem 4rem 1rem 4rem;
+}
+.services__btn button:hover{
+    color: var(--buttonColor);
+    background-color: var(--BodyColor);
+}
+/* Fin du traitement de la section services */
+/* Traitement de la section solutions */
