@@ -468,3 +468,102 @@ input[type = "text"]{
     transform: scale(1.1);
 }
 /* Fin du traitement de la section history */
+/* Traitement de la section caroussel */
+.caroussel{
+    width: 100vw;
+    height: 60vh;
+    background-color: var(--headerColor);
+}
+.caroussel__main{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+.caroussel__main__text{
+    flex: 1;
+    padding: 4rem;
+}
+.caroussel__main__text h1{
+    font-size: 5rem;
+    font-family: var(--titleHeadFont);
+    color: var(--BodyColor);
+}
+.caroussel__main__text p{
+    font-size: 1.8rem;
+    font-family: var(--titleHeadFont);
+    color: var(--BodyColor);
+}
+.caroussel__main__text button{
+    padding: 1rem 3rem 1rem 3rem;
+    border: 2px solid white;
+    border-radius: var(--raduisButton);
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    transition: 0.25s ease-out;
+}
+.caroussel__main__text button:hover{
+    background-color: var(--BodyColor);
+    color: var(--headerColor);
+    transform: scale(1.1);
+}
+.caroussel__main__img{
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.caroussel__main__img img{
+    transition: 0.25s ease-out;
+}
+.caroussel__main__img img:hover{
+    transform: scale(1.1);
+}
+/* Fin du traitement de la section caroussel */
+/* Traitement de la section event */
+.event{
+    width: 100vw;
+    height: 65vh;
+    background-color: var(--BodyColor);
+    
+}
+.event__main{
+   width: 100vw;
+   height: 80vh;
+   display: flex;
+   flex-direction: column;
+}
+.event__main__top{
+    flex: 1;
+    width: 92vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 2rem;
+    font-family: var(--titleHeadFont);
+}
+.event__main__botom{
+    flex: 4;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+}
+.event__main__botom h1{ 
+    font-size: 2rem;
+    font-family: var(--titleHeadFont);
+}
+.event__main__botom p{ 
+    font-size: 1.2rem;
+    font-family: var(--titleHeadFont);
+}
+.event__main__botom img{ 
+    cursor: pointer;
+    width: 35rem;
+    transition: 0.25s ease-out;
+}
+.event__main__botom img:hover{ 
+    transform: scale(1.1);
+}
